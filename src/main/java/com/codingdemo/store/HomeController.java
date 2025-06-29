@@ -13,4 +13,10 @@ public class HomeController {
         System.out.println("Hello world");
         return "feature change for PR";
     }
+
+    @RequestMapping("/contact")
+    public String getContact(){
+
+        return "stash contact";
+    }
 }
