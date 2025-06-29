@@ -11,7 +11,7 @@ public class HomeController {
     public String index(){
 
         System.out.println("Hello world");
-        return "another made changes";
+        return "another made changes for fetch";
     }
 
     @RequestMapping("/contact")
