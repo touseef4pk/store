@@ -11,6 +11,6 @@ public class HomeController {
     public String index(){
 
         System.out.println("Hello world");
-        return "fetch & pull";
+        return "test";
     }
 }
